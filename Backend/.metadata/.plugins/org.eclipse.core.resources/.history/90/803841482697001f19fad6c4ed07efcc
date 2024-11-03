@@ -1,0 +1,11 @@
+package com.edu.user_data.service;
+
+import com.edu.user_data.entity.User;
+
+public class UserService {
+
+	public User addUser(User user) {
+		
+	}
+
+}

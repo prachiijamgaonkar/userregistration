@@ -1,0 +1,15 @@
+package com.edu.user_data.service;
+
+import com.edu.user_data.entity.User;
+
+public class UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+	
+	public User addUser(User user) {
+		return userRepository.save(user);
+		
+	}
+
+}

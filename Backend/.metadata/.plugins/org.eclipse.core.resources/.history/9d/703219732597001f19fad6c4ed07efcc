@@ -1,0 +1,5 @@
+package com.edu.user_data.repository;
+
+public class UserService {
+
+}
